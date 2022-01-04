@@ -11,15 +11,15 @@ html, body {
 }
 
 body {
-    background-color:rgb(14, 13, 13);
+    background-color: rgb(26, 118, 136);
 }
 
 a {
-    color: var(--light) !important;
+    color: rgb(63, 63, 191);
 }
 
 .custom-resume {
-    background-color:var(--light);
+    background-color:rgba(245, 237, 237, 0.3);
 }
 
 .custom-resume > div {
@@ -35,18 +35,19 @@ a {
 }
 
 .custom-text-cont h5 {
-    color: var(--primary) !important;
+    color: rgb(63, 63, 191);
 }
 
 .custom-text-cont i {
-    border: 1px solid var(--primary);
+    border: 1px solid rgb(63, 191, 191);
     border-radius: 50%;
-    background-color: var(--primary);
-    color: var(--light);
+    background-color: rgb(128, 255, 196);
+    color: rgb(255,255,255);
+    
 }
 
 .custom-profile > * {
-    background-color: var(--primary);
+    background-color: rgb(153,102,153);
 }
 
 .custom-profile > div:last-child span {
@@ -54,11 +55,11 @@ a {
 }
 
 .custom-profile > :last-child {
-    background-color: rgba(68, 106, 182, .5);
+    background-color: rgb(153,102,153);
 }
 
 .custom-city {
-    color: var(--greyish);
+    color: rgb(63, 63, 191);
 }
 
 .custom-title {
@@ -66,7 +67,7 @@ a {
 }
 
 .custom-title span {
-    color: var(--greyish);
+    color: rgb(116 121 129 / 80%);
 }
 
 img + p > span {
